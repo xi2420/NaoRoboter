@@ -7,5 +7,7 @@
     <Dialogs />
     <Resources />
     <Topics />
-    <IgnoredPaths />
+    <IgnoredPaths>
+        <Path src="MP4/naoCrouch.mp4" />
+    </IgnoredPaths>
 </Package>
