@@ -15,7 +15,7 @@
             <BehaviorLayer name="behavior_layer1">
                 <BehaviorKeyframe name="keyframe1" index="1">
                     <Diagram scale="84.0896">
-                        <Box name="Crunch" id="2" localization="8" tooltip="The robot goes from its current postition to the asked posture." x="96" y="17">
+                        <Box name="Crunch" id="2" localization="8" tooltip="The robot goes from its current postition to the asked posture." x="192" y="5">
                             <bitmap>media/images/box/box-diagram.png</bitmap>
                             <script language="4">
                                 <content>
@@ -68,7 +68,7 @@
                             <Resource name="All motors" type="Lock" timeout="0" />
                             <Resource name="Stiffness" type="Lock" timeout="0" />
                         </Box>
-                        <Box name="kneel down" id="1" localization="8" tooltip="" x="132" y="229">
+                        <Box name="kneel down" id="1" localization="8" tooltip="" x="352" y="7">
                             <bitmap>media/images/box/box-timeLine.png</bitmap>
                             <script language="4">
                                 <content>
@@ -274,7 +274,7 @@
                                 </ActuatorList>
                             </Timeline>
                         </Box>
-                        <Box name="arms" id="4" localization="8" tooltip="" x="323" y="305">
+                        <Box name="arms" id="4" localization="8" tooltip="" x="499" y="23">
                             <bitmap>media/images/box/box-timeLine.png</bitmap>
                             <script language="4">
                                 <content>
@@ -329,9 +329,8 @@
                                 </ActuatorList>
                             </Timeline>
                         </Box>
-                        <Link inputowner="2" indexofinput="2" outputowner="0" indexofoutput="2" />
                         <Link inputowner="4" indexofinput="2" outputowner="1" indexofoutput="4" />
-                        <Link inputowner="1" indexofinput="2" outputowner="2" indexofoutput="4" />
+                        <Link inputowner="2" indexofinput="2" outputowner="0" indexofoutput="2" />
                     </Diagram>
                 </BehaviorKeyframe>
             </BehaviorLayer>
