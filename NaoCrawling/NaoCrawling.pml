@@ -8,6 +8,6 @@
     <Resources />
     <Topics />
     <IgnoredPaths>
-        <Path src="MP4/naoCrouch.mp4" />
+        <Path src="MP4" />
     </IgnoredPaths>
 </Package>
