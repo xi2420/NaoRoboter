@@ -328,7 +328,7 @@
                                     </ActuatorCurve>
                                     <ActuatorCurve name="value" actuator="LShoulderPitch" recordable="0" mute="0" unit="-1">
                                         <Key frame="7" value="6.3" />
-                                        <Key frame="23" value="2.6" />
+                                        <Key frame="23" value="-0.0453786" />
                                     </ActuatorCurve>
                                     <ActuatorCurve name="value" actuator="LShoulderRoll" recordable="0" mute="0" unit="-1">
                                         <Key frame="7" value="8.66089" />
@@ -368,7 +368,7 @@
                                     </ActuatorCurve>
                                     <ActuatorCurve name="value" actuator="RShoulderPitch" recordable="0" mute="0" unit="-1">
                                         <Key frame="7" value="6.3" />
-                                        <Key frame="23" value="2.6" />
+                                        <Key frame="23" value="-0.0453786" />
                                     </ActuatorCurve>
                                     <ActuatorCurve name="value" actuator="RShoulderRoll" recordable="0" mute="0" unit="-1">
                                         <Key frame="7" value="-8.90814" />
@@ -874,7 +874,6 @@
                         </Box>
                         <Link inputowner="2" indexofinput="2" outputowner="0" indexofoutput="2" />
                         <Link inputowner="12" indexofinput="2" outputowner="2" indexofoutput="4" />
-                        <Link inputowner="1" indexofinput="2" outputowner="12" indexofoutput="4" />
                         <Link inputowner="13" indexofinput="2" outputowner="1" indexofoutput="4" />
                         <Link inputowner="3" indexofinput="2" outputowner="8" indexofoutput="4" />
                         <Link inputowner="10" indexofinput="2" outputowner="3" indexofoutput="4" />
