@@ -14,7 +14,7 @@
         <Timeline enable="0">
             <BehaviorLayer name="behavior_layer1">
                 <BehaviorKeyframe name="keyframe1" index="1">
-                    <Diagram scale="35.3553">
+                    <Diagram scale="50">
                         <Box name="Crunch" id="2" localization="8" tooltip="The robot goes from its current postition to the asked posture." x="80" y="3">
                             <bitmap>media/images/box/box-diagram.png</bitmap>
                             <script language="4">
@@ -456,7 +456,7 @@
                                 </ActuatorList>
                             </Timeline>
                         </Box>
-                        <Box name="right leg" id="10" localization="8" tooltip="" x="552" y="266">
+                        <Box name="right leg" id="10" localization="8" tooltip="" x="489" y="276">
                             <bitmap>media/images/box/box-timeLine.png</bitmap>
                             <script language="4">
                                 <content>
@@ -560,7 +560,7 @@
                                 </ActuatorList>
                             </Timeline>
                         </Box>
-                        <Box name="left leg" id="11" localization="8" tooltip="" x="449" y="488">
+                        <Box name="left leg" id="11" localization="8" tooltip="" x="450" y="456">
                             <bitmap>media/images/box/box-timeLine.png</bitmap>
                             <script language="4">
                                 <content>
@@ -612,7 +612,7 @@
                                 </ActuatorList>
                             </Timeline>
                         </Box>
-                        <Box name="bending L arm" id="3" localization="8" tooltip="" x="416" y="263">
+                        <Box name="bending L arm" id="3" localization="8" tooltip="" x="361" y="281">
                             <bitmap>media/images/box/box-timeLine.png</bitmap>
                             <script language="4">
                                 <content>
@@ -664,7 +664,7 @@
                                 </ActuatorList>
                             </Timeline>
                         </Box>
-                        <Box name="stretching L arm" id="5" localization="8" tooltip="" x="704" y="268">
+                        <Box name="stretching L arm" id="5" localization="8" tooltip="" x="657" y="273">
                             <bitmap>media/images/box/box-timeLine.png</bitmap>
                             <script language="4">
                                 <content>
@@ -716,7 +716,7 @@
                                 </ActuatorList>
                             </Timeline>
                         </Box>
-                        <Box name="bending R arm" id="15" localization="8" tooltip="" x="263" y="483">
+                        <Box name="bending R arm" id="15" localization="8" tooltip="" x="309" y="448">
                             <bitmap>media/images/box/box-timeLine.png</bitmap>
                             <script language="4">
                                 <content>
@@ -768,7 +768,7 @@
                                 </ActuatorList>
                             </Timeline>
                         </Box>
-                        <Box name="stretching R arm" id="9" localization="8" tooltip="" x="595" y="495">
+                        <Box name="stretching R arm" id="9" localization="8" tooltip="" x="607" y="470">
                             <bitmap>media/images/box/box-timeLine.png</bitmap>
                             <script language="4">
                                 <content>
@@ -820,7 +820,7 @@
                                 </ActuatorList>
                             </Timeline>
                         </Box>
-                        <Box name="stretching arms (1)" id="7" localization="8" tooltip="" x="775" y="732">
+                        <Box name="stretching arms (1)" id="7" localization="8" tooltip="" x="714" y="631">
                             <bitmap>media/images/box/box-timeLine.png</bitmap>
                             <script language="4">
                                 <content>
@@ -880,11 +880,11 @@
                         <Link inputowner="8" indexofinput="2" outputowner="14" indexofoutput="4" />
                         <Link inputowner="14" indexofinput="2" outputowner="13" indexofoutput="4" />
                         <Link inputowner="11" indexofinput="2" outputowner="15" indexofoutput="4" />
+                        <Link inputowner="1" indexofinput="2" outputowner="12" indexofoutput="4" />
                         <Link inputowner="5" indexofinput="2" outputowner="10" indexofoutput="4" />
                         <Link inputowner="15" indexofinput="2" outputowner="5" indexofoutput="4" />
                         <Link inputowner="9" indexofinput="2" outputowner="11" indexofoutput="4" />
                         <Link inputowner="14" indexofinput="2" outputowner="9" indexofoutput="4" />
-                        <Link inputowner="1" indexofinput="2" outputowner="12" indexofoutput="4" />
                     </Diagram>
                 </BehaviorKeyframe>
             </BehaviorLayer>
