@@ -7,7 +7,5 @@
     <Dialogs />
     <Resources />
     <Topics />
-    <IgnoredPaths>
-        <Path src="MP4" />
-    </IgnoredPaths>
+    <IgnoredPaths />
 </Package>
