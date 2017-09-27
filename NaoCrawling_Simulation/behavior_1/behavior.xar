@@ -14,7 +14,7 @@
         <Timeline enable="0">
             <BehaviorLayer name="behavior_layer1">
                 <BehaviorKeyframe name="keyframe1" index="1">
-                    <Diagram scale="50">
+                    <Diagram scale="84.0896">
                         <Box name="Crunch" id="2" localization="8" tooltip="The robot goes from its current postition to the asked posture." x="80" y="3">
                             <bitmap>media/images/box/box-diagram.png</bitmap>
                             <script language="4">
@@ -821,7 +821,6 @@
                             </Timeline>
                         </Box>
                         <Link inputowner="2" indexofinput="2" outputowner="0" indexofoutput="2" />
-                        <Link inputowner="12" indexofinput="2" outputowner="2" indexofoutput="4" />
                         <Link inputowner="13" indexofinput="2" outputowner="1" indexofoutput="4" />
                         <Link inputowner="3" indexofinput="2" outputowner="8" indexofoutput="4" />
                         <Link inputowner="10" indexofinput="2" outputowner="3" indexofoutput="4" />
@@ -833,6 +832,7 @@
                         <Link inputowner="14" indexofinput="2" outputowner="9" indexofoutput="4" />
                         <Link inputowner="5" indexofinput="2" outputowner="10" indexofoutput="4" />
                         <Link inputowner="15" indexofinput="2" outputowner="5" indexofoutput="4" />
+                        <Link inputowner="12" indexofinput="2" outputowner="2" indexofoutput="4" />
                     </Diagram>
                 </BehaviorKeyframe>
             </BehaviorLayer>
